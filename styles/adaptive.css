@@ -194,23 +194,27 @@
         display: block;
     }
 
+    .promo-stats {
+        width: 300px;
+    }
+
     .promo h1 {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .promo p {
-        font-size: 20px;
-    }
-
-    .stat-item {
         font-size: 18px;
     }
 
+    .stat-item {
+        font-size: 15px;
+    }
+
     .stat-item span {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .contact-form h2 {
-        font-size: 25px;
+        font-size: 20px;
     }
 }

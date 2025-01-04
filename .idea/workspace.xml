@@ -5,19 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c66f8c2-c2d8-414d-bd77-e6d7872d4f04" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/fonts/Arial-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Arial-Italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Arial-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Prata-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/img2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/img3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/img4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/adaptive.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/adaptive.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/adaptive.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +24,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "phoenix-intensive"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/phoenix-intensive/lorem.git",
+    "accountId": "a9078915-0c2d-4c89-aad2-85e8a40f8ebd"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 2
 }]]></component>
@@ -84,7 +85,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1735382719984</updated>
-      <workItem from="1735382721359" duration="34824000" />
+      <workItem from="1735382721359" duration="35474000" />
     </task>
     <servers />
   </component>
