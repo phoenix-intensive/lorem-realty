@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c66f8c2-c2d8-414d-bd77-e6d7872d4f04" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/images/icon/Component icons (2).svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icon/icon-feature.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icon/icon-promo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icon/instagram-icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icon/tik-tok-icons.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/adaptive.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/adaptive.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +57,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/dima/Desktop/Test_MST/MST-test",
+    "last_opened_file_path": "/Users/dima/Desktop/Test_MST/MST-test/images/icon",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -63,10 +69,12 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images/icon" />
       <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$/fonts" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images/icon" />
       <recent name="$PROJECT_DIR$/styles" />
     </key>
   </component>
@@ -86,7 +94,8 @@
       <option name="presentableId" value="Default" />
       <updated>1735382719984</updated>
       <workItem from="1735382721359" duration="35975000" />
-      <workItem from="1736063741353" duration="325000" />
+      <workItem from="1736063741353" duration="693000" />
+      <workItem from="1736070581540" duration="732000" />
     </task>
     <servers />
   </component>
