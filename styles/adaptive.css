@@ -89,7 +89,8 @@
     }
 
     .promo-content {
-        padding: 120px 20px 40px 20px;
+        padding: 90px 20px 40px 20px;
+        max-width: 100%;
     }
 
     .promo h1 {
@@ -216,5 +217,13 @@
 
     .contact-form h2 {
         font-size: 20px;
+    }
+
+    .footer-bottom-copyright p {
+        font-size: 18px;
+    }
+
+    .footer-bottom a {
+        font-size: 18px;
     }
 }
