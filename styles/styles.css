@@ -388,8 +388,12 @@ a {
     letter-spacing: 0.04em;
     font-size: 18px;
     color: #fff;
-
 }
+
+.footer-nav a:hover {
+    color: orange;
+}
+
 
 .footer-main {
     padding: 43px 183px 53px 160px;

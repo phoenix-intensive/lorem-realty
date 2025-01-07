@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c66f8c2-c2d8-414d-bd77-e6d7872d4f04" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/privacy-policy.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terms-service.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thank-you-page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/adaptive.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/adaptive.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,12 +31,12 @@
     &quot;assignee&quot;: &quot;phoenix-intensive&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/phoenix-intensive/lorem.git&quot;,
-    &quot;accountId&quot;: &quot;a9078915-0c2d-4c89-aad2-85e8a40f8ebd&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/phoenix-intensive/lorem-realty.git",
+    "accountId": "a9078915-0c2d-4c89-aad2-85e8a40f8ebd"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -98,7 +93,7 @@
       <workItem from="1736063741353" duration="693000" />
       <workItem from="1736070581540" duration="1223000" />
       <workItem from="1736229946374" duration="5654000" />
-      <workItem from="1736236125575" duration="609000" />
+      <workItem from="1736236125575" duration="1372000" />
     </task>
     <servers />
   </component>
