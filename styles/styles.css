@@ -239,9 +239,163 @@ a {
     margin-top: 60px;
 }
 
+.properties {
+    padding: 80px 20px;
+    background-color: #f4f4f4;
+}
+
+.properties h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: PrataRegular, sans-serif;
+    font-size: 40px;
+    color: #38535d;
+}
+
+.property-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.property-item {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.property-item:hover {
+    transform: translateY(-15px);
+}
+
+.property-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.property-details {
+    padding: 20px;
+}
+
+.property-details h3 {
+    font-family: PrataRegular, sans-serif;
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #38535d;
+}
+
+.property-details p {
+    font-family: ArialRegular, sans-serif;
+    font-size: 16px;
+    color: #55565a;
+}
+
+.about {
+    padding: 80px 20px;
+    background-color: #fff;
+}
+
+.about h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: PrataRegular, sans-serif;
+    font-size: 40px;
+    color: #38535d;
+}
+
+.about-content {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.about-text {
+    flex: 1;
+}
+
+.about-text p {
+    font-family: ArialRegular, sans-serif;
+    font-size: 18px;
+    color: #55565a;
+    margin-bottom: 20px;
+}
+
+.about-text ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.about-text li {
+    font-family: ArialRegular, sans-serif;
+    font-size: 16px;
+    color: #55565a;
+    margin-bottom: 10px;
+    padding-left: 25px;
+    position: relative;
+}
+
+.about-text li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: #4a90e2;
+}
+
+.about-image {
+    flex: 1;
+}
+
+.about-image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Testimonials Section */
+.testimonials {
+    padding: 80px 40px;
+    background-color: #f4f4f4;
+}
+
+.testimonials h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: PrataRegular, sans-serif;
+    font-size: 40px;
+    color: #38535d;
+}
+
+
+.testimonial-item {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 200px;
+    display: block;
+}
+
+.testimonial-item p {
+    font-family: ArialItalic, sans-serif;
+    font-size: 18px;
+    color: #55565a;
+    margin-bottom: 20px;
+}
+
+.testimonial-item h4 {
+    font-family: ArialBold, sans-serif;
+    font-size: 16px;
+    color: #38535d;
+}
+
 
 .contact-wrapper {
-    padding: 0 161px 100px 161px;
+    padding: 100px 161px 100px 161px;
 }
 
 .contact {
@@ -529,5 +683,69 @@ a {
 
 .thank-you-page .btn:hover {
     background-color: orange;
+}
+
+.error-page {
+    padding: 100px 0;
+    text-align: center;
+    background-color: #f4f4f4;
+    min-height: calc(100vh - 200px);
+    display: flex;
+    align-items: center;
+}
+
+.error-page h1 {
+    font-family: PrataRegular, sans-serif;
+    font-size: 48px;
+    color: #38535d;
+    margin-bottom: 20px;
+}
+
+.error-page p {
+    font-family: ArialRegular, sans-serif;
+    font-size: 20px;
+    color: #55565a;
+    margin-bottom: 30px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.error-page .btn-primary {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: black;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-family: ArialBold, sans-serif;
+    font-size: 18px;
+}
+
+.error-page .btn-primary:hover {
+    background-color: orange;
+}
+
+
+.slider {
+    position: relative;
+}
+
+.swiper {
+    width: 100%;
+    height: auto;
+}
+
+.swiper-button-next::after {
+    position: absolute;
+    right: -60px; /* Вынесено за пределы карусели */
+    color: black;
+}
+
+.swiper-button-prev::after {
+    position: absolute;
+    left: -60px; /* Вынесено за пределы карусели */
+    color: black;
 }
 

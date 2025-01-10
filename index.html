@@ -1,14 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Lorem Realty offers premium real estate services. Explore our advantages, contact us, and discover your dream property today!">
-    <meta name="keywords" content="real estate, property, Lorem Realty, dream home, premium real estate services, property investment">
+    <meta name="description"
+          content="Lorem Realty ofrece servicios inmobiliarios premium. Explore nuestras ventajas, contáctenos y descubra su propiedad de ensueño hoy mismo.">
+    <meta name="keywords"
+          content="bienes raíces, propiedad, Lorem Realty, casa de ensueño, servicios inmobiliarios premium, inversión inmobiliaria">
     <meta name="author" content="Lorem Realty">
-    <title>Lorem Realty</title>
+    <title>Lorem Realty - Servicios Inmobiliarios Premium</title>
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="styles/adaptive.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="script.js" defer></script>
 </head>
 
@@ -17,40 +21,42 @@
 <header class="header">
     <a href="#" class="logo">Lorem Realty</a>
     <nav class="nav-menu">
-        <a href="#promo">Sobre nosotros</a>
+        <a href="#promo">Sobre Nosotros</a>
         <a href="#features">Ventajas</a>
-        <a href="#order">Сontactos</a>
+        <a href="#properties">Propiedades</a>
+        <a href="#testimonials">Testimonios</a>
+        <a href="#order">Contacto</a>
     </nav>
 </header>
 
 <section class="promo" id="promo">
     <div class="promo-content">
-        <h1>Lorem ipsum dolor sit amet</h1>
-        <p>sed do eiusmod tempor</p>
+        <h1>Descubra un nuevo mundo inmobiliario</h1>
+        <p>Soluciones Inmobiliarias Premium</p>
         <div class="promo-stats">
             <div class="stat-item">
                 <span>
-                    <img src="images/icon/icon-promo.svg" alt="icon">
+                    <img src="images/icon/icon-promo.svg" alt="icono">
                 </span>
-                do<span>$10 000</span> consectetur sit
+                Propiedades desde <span>100.000€</span>
             </div>
             <div class="stat-item">
                 <span>
-                     <img src="images/icon/icon-promo.svg" alt="icon">
+                     <img src="images/icon/icon-promo.svg" alt="icono">
                 </span>
-                <span>30%</span>sed do eiusmod tempor
+                <span>98%</span> de satisfacción del cliente
             </div>
             <div class="stat-item">
                 <span>
-                    <img src="images/icon/icon-promo.svg" alt="icon">
+                    <img src="images/icon/icon-promo.svg" alt="icono">
                 </span>
-                do <span>17%</span> adipiscing elit sed do
+                Más de <span>1000</span> propiedades vendidas
             </div>
         </div>
-        <a href="#order" class="btn btn-order">ORDER</a>
+        <a href="#order" class="btn btn-order">Contáctanos</a>
     </div>
     <div class="promo-image">
-        <img src="images/img.png" alt="office building">
+        <img src="images/img.png" alt="Casa de lujo">
     </div>
 </section>
 
@@ -59,55 +65,183 @@
     <div class="features-list">
         <div class="feature-item">
             <span>
-                 <img src="images/icon/icon-feature.svg" alt="icon-feature">
+                 <img src="images/icon/icon-feature.svg" alt="icono-característica">
             </span>
-            <p>Lorem ipsum dolor sit amet, adipiscing elit, sed do eiusmod tempor</p>
+            <p>Agentes inmobiliarios expertos con años de experiencia en el mercado local</p>
         </div>
         <div class="feature-item">
             <span>
-                <img src="images/icon/icon-feature.svg" alt="icon-feature">
+                <img src="images/icon/icon-feature.svg" alt="icono-característica">
             </span>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+            <p>Búsqueda de propiedades personalizada adaptada a tus necesidades y preferencias específicas</p>
         </div>
         <div class="feature-item">
             <span>
-                <img src="images/icon/icon-feature.svg" alt="icon-feature">
+                <img src="images/icon/icon-feature.svg" alt="icono-característica">
             </span>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit, sed do eiusmod tempor</p>
+            <p>Apoyo integral durante todo el proceso de compra o venta</p>
         </div>
         <div class="feature-item feature-item--last">
             <span>
-                <img src="images/icon/icon-feature.svg" alt="icon-feature">
+                <img src="images/icon/icon-feature.svg" alt="icono-característica">
             </span>
-            <p>Lorem ipsum dolor amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+            <p>Acceso a listados exclusivos y propiedades fuera del mercado</p>
         </div>
         <div class="feature-action">
-            <a href="#order" class="btn btn-feature">ORDER</a>
+            <a href="#order" class="btn btn-feature">Saber Más</a>
         </div>
     </div>
     <div class="feature-image-two"></div>
+</section>
+
+<section class="properties" id="properties">
+    <div class="container">
+        <h2>Propiedades Destacadas</h2>
+        <div class="property-grid">
+            <div class="property-item">
+                <img src="images/img5.png" alt="Villa de Lujo">
+                <div class="property-details">
+                    <h3>Villa de Lujo</h3>
+                    <p>Espaciosa villa de 5 dormitorios con piscina</p>
+                </div>
+            </div>
+            <div class="property-item">
+                <img src="images/img6.png" alt="Apartamento Moderno">
+                <div class="property-details">
+                    <h3>Apartamento Moderno</h3>
+                    <p>Elegante apartamento de 2 dormitorios en el centro de la ciudad</p>
+                </div>
+            </div>
+            <div class="property-item">
+                <img src="images/img7.png" alt="Casa Familiar">
+                <div class="property-details">
+                    <h3>Casa Familiar</h3>
+                    <p>Acogedora casa de 4 dormitorios con un gran jardín</p>
+                </div>
+            </div>
+            <div class="property-item">
+                <img src="images/img8.png" alt="Chalet de Montaña">
+                <div class="property-details">
+                    <h3>Chalet de Montaña</h3>
+                    <p>Hermoso chalet de 3 dormitorios con vistas panorámicas</p>
+                </div>
+            </div>
+            <div class="property-item">
+                <img src="images/img9.png" alt="Loft Industrial">
+                <div class="property-details">
+                    <h3>Loft Industrial</h3>
+                    <p>Espacioso loft de 1 dormitorio en una antigua fábrica renovada</p>
+                </div>
+            </div>
+            <div class="property-item">
+                <img src="images/img10.png" alt="Ático de Lujo">
+                <div class="property-details">
+                    <h3>Ático de Lujo</h3>
+                    <p>Impresionante ático de 3 dormitorios con terraza y jacuzzi</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="about" id="about">
+    <div class="container">
+        <h2>¿Por qué elegir Lorem Realty?</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>En Lorem Realty, estamos comprometidos a ayudarte a encontrar la propiedad perfecta. Con nuestro
+                    equipo experto y enfoque personalizado, garantizamos una experiencia inmobiliaria satisfactoria y
+                    sin complicaciones.</p>
+                <ul>
+                    <li>Más de 20 años de experiencia</li>
+                    <li>Atención al cliente dedicada</li>
+                    <li>Amplia cartera de propiedades</li>
+                    <li>Prácticas transparentes y éticas</li>
+                </ul>
+            </div>
+            <div class="about-image">
+                <img src="images/img8.png"
+                     alt="Nuestro equipo">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="testimonials" id="testimonials">
+    <div class="container">
+        <h2>Lo que dicen nuestros clientes</h2>
+        <div class="slider">
+            <div class="swiper gallery-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="testimonial-item">
+                            <p>"Lorem Realty hizo que encontrar nuestra casa de ensueño fuera muy fácil. ¡Su experiencia
+                                y dedicación son incomparables!"</p>
+                            <h4>- Juan y María G.</h4>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testimonial-item">
+                            <p>"El equipo de Lorem Realty hizo todo lo posible para ayudarnos a vender nuestra
+                                propiedad. ¡Altamente recomendados!"</p>
+                            <h4>- Carlos R.</h4>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testimonial-item">
+                            <p>"Profesionales, conocedores y siempre disponibles. ¡Lorem Realty es lo mejor en el
+                                negocio inmobiliario!"</p>
+                            <h4>- Ana L.</h4>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testimonial-item">
+                            <p>"Gracias a Lorem Realty, encontramos el apartamento perfecto en tiempo récord. Su
+                                atención personalizada marca la diferencia."</p>
+                            <h4>- Elena M.</h4>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testimonial-item">
+                            <p>"Como inversor inmobiliario, valoro mucho el conocimiento del mercado de Lorem Realty.
+                                Han sido clave en el éxito de mis inversiones."</p>
+                            <h4>- Roberto S.</h4>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testimonial-item">
+                            <p>"La paciencia y dedicación de Lorem Realty hicieron que nuestra primera compra de
+                                vivienda fuera una experiencia increíble."</p>
+                            <h4>- Laura y Pedro T.</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </div>
 </section>
 
 
 <section class="contact-wrapper" id="order">
     <div class="contact">
         <div class="contact-form">
-            <h2>Consectetur<br>sed do eiusmod</h2>
+            <h2>Contacta con<br>Nuestros Expertos</h2>
             <form id="contactForm">
                 <div class="form-group">
-                    <input type="text" id="name" name="name" placeholder="Name" required>
+                    <input type="text" id="name" name="name" placeholder="Tu Nombre" required>
                 </div>
                 <div class="form-group">
-                    <input type="email" id="email" name="email" placeholder="E-mail" required>
+                    <input type="email" id="email" name="email" placeholder="Tu Email" required>
                 </div>
                 <div class="form-group checkbox">
                     <label>
                         <input type="checkbox" name="privacy" required>
-                        <span>I accept Privacy policy</span>
+                        <span>Acepto la Política de Privacidad</span>
                     </label>
                 </div>
-                <button type="submit" class="btn-submit">SUBMIT FORM</button>
+                <button type="submit" class="btn-submit">Enviar Mensaje</button>
             </form>
         </div>
         <div class="contact-image"></div>
@@ -116,58 +250,48 @@
 
 <footer class="footer">
     <div class="footer-nav">
-        <a href="#promo">Sobre nosotros</a>
+        <a href="#promo">Sobre Nosotros</a>
         <a href="#features">Ventajas</a>
-        <a href="#order">Сontactos</a>
+        <a href="#properties">Propiedades</a>
+        <a href="#testimonials">Testimonios</a>
+        <a href="#order">Contacto</a>
     </div>
     <div class="footer-main">
         <div class="footer-top">
             <div class="footer-logo">
                 <a href="#" class="logo">Lorem Realty</a>
             </div>
-            <div class="footer-social-links">
-                <a href="#" aria-label="Instagram">
-                    <img src="images/icon/instagram-icons.svg" alt="instagram-icons">
-                </a>
-                <a href="#" aria-label="TikTok">
-                    <img src="images/icon/tik-tok-icons.svg" alt="tik-tok-icons">
-                </a>
-                <a href="#" aria-label="LinkedIn">
-                    <img src="images/icon/linkedIn-icons.svg" alt="linkedIn-icons">
-                </a>
-                <a href="#" aria-label="Facebook">
-                    <img src="images/icon/facebook-icons.svg" alt="facebook-icons">
-                </a>
-                <a href="#" aria-label="Telegram">
-                    <img src="images/icon/telegram-icons.svg" alt="telegram-icons">
-                </a>
-                <a href="#" aria-label="YouTube">
-                    <img src="images/icon/you-tube-icons.svg" alt="you-tube-icons">
-                </a>
-            </div>
-            <a href="#order" class="btn btn-footer">ORDER</a>
+            <div class="footer-social-links"><a href="#" aria-label="Instagram"> <img
+                    src="images/icon/instagram-icons.svg" alt="instagram-icons"> </a> <a href="#" aria-label="TikTok">
+                <img src="images/icon/tik-tok-icons.svg" alt="tik-tok-icons"> </a> <a href="#" aria-label="LinkedIn">
+                <img src="images/icon/linkedIn-icons.svg" alt="linkedIn-icons"> </a> <a href="#" aria-label="Facebook">
+                <img src="images/icon/facebook-icons.svg" alt="facebook-icons"> </a> <a href="#" aria-label="Telegram">
+                <img src="images/icon/telegram-icons.svg" alt="telegram-icons"> </a> <a href="#" aria-label="YouTube">
+                <img src="images/icon/you-tube-icons.svg" alt="you-tube-icons"> </a></div>
+            <a href="#order" class="btn btn-footer">Contáctanos</a>
         </div>
         <div class="footer-bottom">
             <div class="footer-bottom-copyright">
-                <p>© 2025, Copyright</p>
+                <p>&copy; 2025 Lorem Realty. Todos los derechos reservados.</p>
             </div>
             <div class="footer-bottom-privacy">
-                <a href="privacy-policy.html">Privacy policy</a>
+                <a href="privacy-policy.html">Política de Privacidad</a>
             </div>
             <div class="footer-bottom-use">
-                <a href="terms-service.html">Terms of Use</a>
+                <a href="terms-service.html">Términos de Servicio</a>
             </div>
         </div>
     </div>
 </footer>
 
-
 <div id="cookie-banner" class="cookie-banner">
-    <p>We use cookies to enhance your experience. By continuing to visit this site you agree to our use of cookies.
-        <a href="privacy-policy.html">Learn more</a>
+    <p>Utilizamos cookies para mejorar tu experiencia. Al continuar visitando este sitio, aceptas nuestro uso de
+        cookies.
+        <a href="privacy-policy.html">Saber más</a>
     </p>
-    <button id="accept-cookies" class="btn btn-cookie">Accept</button>
+    <button id="accept-cookies" class="btn btn-cookie">Aceptar</button>
 </div>
 
 </body>
 </html>
+
