@@ -50,7 +50,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/dima/Desktop/Дмитрий проекты/Lorem Realty&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/dima/Desktop/Дмитрий проекты/Lorem Realty/images&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -62,9 +62,9 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/images/icon" />
-      <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$/fonts" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -96,6 +96,8 @@
       <workItem from="1736324488468" duration="515000" />
       <workItem from="1736337053120" duration="35000" />
       <workItem from="1736419663965" duration="675000" />
+      <workItem from="1736490364868" duration="6289000" />
+      <workItem from="1736599029770" duration="2000" />
     </task>
     <servers />
   </component>
